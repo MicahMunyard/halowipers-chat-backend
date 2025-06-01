@@ -1,8 +1,5 @@
 {
   "name": "halowipers-chat-functions",
   "version": "1.0.0",
-  "description": "Serverless functions for Halowipers chat widget",
-  "dependencies": {
-    "node-fetch": "^2.7.0"
-  }
+  "description": "Serverless functions for Halowipers chat widget"
 }
