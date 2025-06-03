@@ -8,12 +8,6 @@
   for = "/.netlify/functions/*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
-    Access-Control-Allow-Headers = "Content-Type, Authorization"
-    Access-Control-Allow-Methods = "GET, POST, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Accept, Origin, X-Requested-With"
+    Access-Control-Allow-Methods = "GET, POST, OPTIONS, PUT, DELETE"
     Access-Control-Max-Age = "86400"
-
-[[redirects]]
-  from = "/.netlify/functions/*"
-  to = "/.netlify/functions/:splat"
-  status = 200
-  headers = {Access-Control-Allow-Origin = "*"}
